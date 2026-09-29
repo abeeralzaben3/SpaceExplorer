@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Space Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NASA SEARCH SECTION
+    ========================== -->
+
+    <section class="explorer-section">
+
+        <div class="container">
+
+            <div class="section-header">
+                <span class="section-label">NASA ARCHIVE</span>
+
+                <h1>Explore The Universe</h1>
+
+                <p>
+                    Search NASA's image archive and discover amazing
+                    pictures from space.
+                </p>
+            </div>
+
+
+            <!-- Search Box -->
+
+            <form id="searchForm" class="search-box">
+
+                <input
+                    type="text"
+                    id="inputSearch"
+                    placeholder="Search for Mars, Moon, Galaxy..."
+                >
+
+                <button
+                    type="submit"
+                    id="searchBtn"
+                    class="searchBtn"
+                >
+                    🔍 Search
+                </button>
+
+            </form>
+
+
+            <!-- Search Results -->
+
+            <div id="results" class="results-grid">
+
+                <div class="empty-message">
+                    <div class="empty-icon">🚀</div>
+
+                    <h2>Start Exploring</h2>
+
+                    <p>
+                        Search for something like Mars, Moon,
+                        Galaxy or Black Hole.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FAVORITES SECTION
+    ========================== -->
+
+    <section class="favorites-section">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <span class="section-label">YOUR COLLECTION</span>
+
+                <h1>My Favorites ❤️</h1>
+
+                <p>
+                    Your favorite NASA discoveries are saved here.
+                </p>
+
+            </div>
+
+
+            <!-- Favorites -->
+
+            <div id="favorites" class="results-grid">
+
+                <div class="empty-message">
+
+                    <div class="empty-icon">❤️</div>
+
+                    <h2>No Favorites Yet</h2>
+
+                    <p>
+                        Add something to your favorites
+                        and it will appear here.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
